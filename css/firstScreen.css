@@ -172,7 +172,12 @@
 .account-icon {
 	margin-left: 15px;
 }
-
+.account-icon_type_scale:hover .account-icon {
+	transform: scale(1.2);
+}
+.account-icon_type_scale .account-icon {
+	transition: transform 0.4s ease-in;
+}
 .search {
 	background-color: #393c42;
 	width: 299px;
